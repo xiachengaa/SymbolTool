@@ -14,6 +14,8 @@
 		1C27344F1F774A7A0025D535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C27344D1F774A7A0025D535 /* Main.storyboard */; };
 		1C27345A1F774A7A0025D535 /* EZToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2734591F774A7A0025D535 /* EZToolTests.m */; };
 		1C2734651F774A7A0025D535 /* EZToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2734641F774A7A0025D535 /* EZToolUITests.m */; };
+		1C2734731F775AF50025D535 /* symbolized.py in Resources */ = {isa = PBXBuildFile; fileRef = 1C2734721F775AF50025D535 /* symbolized.py */; };
+		1C2734751F775C4C0025D535 /* symbolicatecrash in Resources */ = {isa = PBXBuildFile; fileRef = 1C2734741F775C4C0025D535 /* symbolicatecrash */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1C2734601F774A7A0025D535 /* EZToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2734641F774A7A0025D535 /* EZToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZToolUITests.m; sourceTree = "<group>"; };
 		1C2734661F774A7A0025D535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2734721F775AF50025D535 /* symbolized.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = symbolized.py; sourceTree = "<group>"; };
+		1C2734741F775C4C0025D535 /* symbolicatecrash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = symbolicatecrash; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				1C2734491F774A7A0025D535 /* ViewController.m */,
 				1C27344B1F774A7A0025D535 /* Assets.xcassets */,
 				1C27344D1F774A7A0025D535 /* Main.storyboard */,
+				1C2734721F775AF50025D535 /* symbolized.py */,
+				1C2734741F775C4C0025D535 /* symbolicatecrash */,
 				1C2734501F774A7A0025D535 /* Info.plist */,
 				1C2734451F774A7A0025D535 /* Supporting Files */,
 			);
@@ -247,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C27344C1F774A7A0025D535 /* Assets.xcassets in Resources */,
+				1C2734751F775C4C0025D535 /* symbolicatecrash in Resources */,
+				1C2734731F775AF50025D535 /* symbolized.py in Resources */,
 				1C27344F1F774A7A0025D535 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
